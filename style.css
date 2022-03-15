@@ -3,13 +3,13 @@ body {
 }
 h1{
   color:grey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*   font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .main{
   color: black;
   background-color: white;
-  width: 300px;
-  margin: 0 auto;
+  width: 500px;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 25px;
 }
