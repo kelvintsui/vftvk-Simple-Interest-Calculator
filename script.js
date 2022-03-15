@@ -1,12 +1,12 @@
 var principal = document.getElementById("principal").value;
 var rate = document.getElementById("rate").value;
 var years = document.getElementById("years").value;
-var intPrincipal = IntFloat(principal);
+var intPrincipal = parseInt(principal);
 var floatRate = parseFloat(rate);
 var intYears = parseInt(years);
 
 function compute() {
-    var simpleInterest = (floatPrincipal * floatRate * IntYears) / 100;
+    var simpleInterest = (intPrincipal * floatRate * intYears) / 100;
     var targetYear = new Date().getFullYear() + intYears;
     document.getElementById("result").innerHTML = "Interest : If you deposit <mark>" + intPrincipal + "</mark>,<br/>" +
         "at an interest rate of <mark>" + floatRate + "</mark>,<br/>" +
