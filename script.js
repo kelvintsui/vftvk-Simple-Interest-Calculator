@@ -8,7 +8,7 @@ rateSlider.oninput = function () {
 function compute() {
   var principal = parseInt(document.getElementById("principal").value);
   if (principal < 1 || isNaN(principal)) {
-    alert("Enter Amount!");
+    alert("Enter Positive Amount!");
     document.getElementById("principal").focus();
   } else {
     var rate = parseFloat(document.getElementById("rateSlider").value);
